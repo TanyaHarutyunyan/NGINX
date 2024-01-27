@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Student Name's Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Welcome to <span class="studentName">Student Name</span>'s Website</h1>
+</header>
+<main>
+    <p>This is a personalized webpage for showcasing projects and interests.</p>
+    <p>Feel free to explore and get to know more about Student Name.</p>
+</main>
+<footer>
+    <p>&copy; 2024 <span class="studentName">Student Name</span>. All rights reserved.</p>
+</footer>
+<script>
+    // JavaScript can be added here for further customization if desired
+    document.querySelectorAll('.studentName').forEach((element) => {
+        element.innerText = 'Tania';
+    });
+</script>
+</body>
+</html>
+
